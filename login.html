@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Home</title>
+<link href="loginStyles.css" rel="stylesheet" type="text/css" />
+<style type="text/css"></style>
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="loginscript.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+</head>
+
+<body>
+<!------------------------------------------------------------------------------------------------->
+  <!-- Battlefield 4 Battlelog Video - Background -->
+  <div id="base-background">
+    <div class="video-container">
+      <video id="background-video" autoplay loop name="media" preload="auto">
+        <source media="screen" src="http://eaassets-a.akamaihd.net/battlelog/background-videos/bg-video.webm" type="video/webm">
+          <source media="screen" src="http://eaassets-a.akamaihd.net/battlelog/background-videos/bg-video.ogg" type="video/ogg">
+            <source media="screen" src="http://eaassets-a.akamaihd.net/battlelog/background-videos/bg-video.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+<!------------------------------------------------------------------------------------------------->
+<!-- Log In/ Sign Up Panel-->
+  <div class="panel">
+
+    <div class="tabs">
+
+      <ul class="tab-links">
+        <li><a href="#tab1">Log In</a></li>
+        <li><a href="#tab2">Sign Up</a></li>
+      </ul>
+<!------------------------------------------------------------------>
+      <div class="tab-content">
+
+        <div id="tab1" class="tab active">
+          <div class="login">
+            <input type="text" placeholder="username" name="user">
+            <br>
+            <input type="password" placeholder="password" name="password">
+            <br>
+            <input type="button" value="Login">
+          </div>
+        </div>
+<!------------------------------------------------------------------>
+        <div id="tab2" class="tab">
+          <div class="signup">
+            <input type="text" placeholder="username" name="user">
+            <br>
+            <input type="text" placeholder="email" name="mail">
+            <br>
+            <input type="password" placeholder="password" name="password">
+            <br>
+            <input type="password" placeholder="repeat password" name="reppassword">
+            <br>
+            <input type="button" value="Sign Up">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+<!------------------------------------------------------------------------------------------------->
+</body>
+</html>
